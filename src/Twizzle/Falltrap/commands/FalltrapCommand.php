@@ -57,7 +57,7 @@ class FalltrapCommand extends Command {
                 $this->plugin->getCooldownConfig()->save();
             }
         } else {
-            $sender->sendMessage(TextFormat::colorize("&4▐ &cYour inventory is full!"));
+            $sender->sendMessage(TextFormat::colorize("&cYour inventory is full!"));
         }
     }
 }
