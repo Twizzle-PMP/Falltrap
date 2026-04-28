@@ -1,0 +1,11 @@
+name: Falltrap
+version: 1.0.0
+main: Twizzle\Falltrap\Main
+api: 5.0.0
+author: Twizzle
+description: Advanced Falltrap and Base generator for Fury Network
+
+permissions:
+  falltrap.command:
+    description: Allows player to use falltrap command
+    default: op
